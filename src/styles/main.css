@@ -1,8 +1,23 @@
+.container #start-button{
+  padding: 16px 32px;
+  color: #ff0000;
+   font-size: 20px;
+   margin: 30px 25%;
+   border-image: linear-gradient(#ff0000, #000000);
+   text-transform: uppercase;
+   border-image-slice: 10;
+   font-weight: bold;
+letter-spacing: 4px;
+}
+
+
+
 .container{
     display: flex;
     flex-direction: column;
     height: 100vh;
     background-image: url('../imagens/wall.png');
+    
 }
 
 .menu{
@@ -35,6 +50,12 @@
     background-image: url('../imagens/ralph.png');
     background-size:cover;
 }
+
+.aliado{
+    background-image: url('../imagens/felix.png');
+    background-size: cover;
+}
+
 .menu-lives{
     display:flex;
     align-items: center;
